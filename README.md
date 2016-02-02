@@ -11,7 +11,7 @@ Python script will check if user exists, if new password and repeated new passwo
 Dependencies of Python script: python-cdb
 
 Install on your uberspace with
-`easy_install-2.7 python-cdb`
+`pip install python-cdb --user`
 
 
 This script probably could be extended to allow each IP only 5 password changes per day to avoid misuse.
